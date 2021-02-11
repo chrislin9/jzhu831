@@ -14,12 +14,12 @@ function Home() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
+            <h1 class="font-weight-light">Happy Valentine's Day!</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I am so lucky to have you in my life, and you motivate me everyday
+              to be a better person and a dumber dumbass. To remember some of the
+              dumb things we do I decided to put them on this website. Hopefully
+              you enjoy. Happy Valentine's Day! &lt;3
             </p>
           </div>
         </div>
