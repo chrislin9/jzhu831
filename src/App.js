@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, About, Contact, Links } from "./components";
+import { Navigation, Footer, Home, Photos, Links, Viewpager } from "./components";
 function App() {
   return (
     <div className="App">
@@ -8,9 +8,9 @@ function App() {
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          <Route path="/photos" exact component={() => <Photos />} />
           <Route path="/links" exact component={() => <Links />} />
+          <Route path="/card" exact component={() => <Viewpager />} />
         </Switch>
         <Footer />
       </Router>

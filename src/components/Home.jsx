@@ -1,5 +1,6 @@
 
 import React from "react";
+import image from '../images/home2.jpg'
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              src={image}
               alt=""
             />
           </div>
@@ -17,7 +18,7 @@ function Home() {
             <h1 class="font-weight-light">Happy Valentine's Day!</h1>
             <p>
               I am so lucky to have you in my life, and you motivate me everyday
-              to be a better person and a dumber dumbass. To remember some of the
+              to be a more thoughtful person and a dumber dumbass. To remember some of the
               dumb things we do I decided to put them on this website. Hopefully
               you enjoy. Happy Valentine's Day! &lt;3
             </p>
