@@ -19,8 +19,7 @@ function Home() {
             <p>
               I am so lucky to have you in my life, and you motivate me everyday
               to be a more thoughtful person and a dumber dumbass. To remember some of the
-              dumb things we do I decided to put them on this website. Hopefully
-              you enjoy. Happy Valentine's Day! &lt;3
+              things we do I decided to put them on this website. Enjoy and happy Valentine's Day! &lt;3
             </p>
           </div>
         </div>

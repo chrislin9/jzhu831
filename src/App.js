@@ -6,12 +6,14 @@ function App() {
     <div className="App">
       <Router>
         <Navigation />
-        <Switch>
-          <Route path="/jzhu831/" exact component={() => <Home />} />
-          <Route path="/jzhu831/photos" exact component={() => <Photos />} />
-          <Route path="/jzhu831/links" exact component={() => <Links />} />
-          <Route path="/jzhu831/card" exact component={() => <Viewpager />} />
-        </Switch>
+        <div style={{marginBottom: "7rem"}}>
+          <Switch>
+            <Route path="/jzhu831/" exact component={() => <Home />} />
+            <Route path="/jzhu831/photos" exact component={() => <Photos />} />
+            <Route path="/jzhu831/links" exact component={() => <Links />} />
+            <Route path="/jzhu831/card" exact component={() => <Viewpager />} />
+          </Switch>
+        </div>
         <Footer />
       </Router>
     </div>
