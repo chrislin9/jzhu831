@@ -7,10 +7,10 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/" exact component={() => <Home />} />
-          <Route path="/photos" exact component={() => <Photos />} />
-          <Route path="/links" exact component={() => <Links />} />
-          <Route path="/card" exact component={() => <Viewpager />} />
+          <Route path="/jzhu831/" exact component={() => <Home />} />
+          <Route path="/jzhu831/photos" exact component={() => <Photos />} />
+          <Route path="/jzhu831/links" exact component={() => <Links />} />
+          <Route path="/jzhu831/card" exact component={() => <Viewpager />} />
         </Switch>
         <Footer />
       </Router>

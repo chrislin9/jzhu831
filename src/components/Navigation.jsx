@@ -6,7 +6,7 @@ function Navigation(props) {
     <div className="navigation">
       <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container">
-          <Link class="navbar-brand" to="/">
+          <Link class="navbar-brand" to="/jzhu831/">
             website of bbgorl and dumbass
           </Link>
 
@@ -14,38 +14,38 @@ function Navigation(props) {
             <ul class="navbar-nav ml-auto">
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/" ? "active" : ""
+                  props.location.pathname === "/jzhu831/" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/">
+                <Link class="nav-link" to="/jzhu831/">
                   Home
                   <span class="sr-only">(current)</span>
                 </Link>
               </li>
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/photos" ? "active" : ""
+                  props.location.pathname === "/jzhu831/photos" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/photos">
+                <Link class="nav-link" to="/jzhu831/photos">
                   Photos
                 </Link>
               </li>
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/links" ? "active" : ""
+                  props.location.pathname === "/jzhu831/links" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/links">
+                <Link class="nav-link" to="/jzhu831/links">
                   Links
                 </Link>
               </li>
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/card" ? "active" : ""
+                  props.location.pathname === "/jzhu831/card" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/card">
+                <Link class="nav-link" to="/jzhu831/card">
                   Card
                 </Link>
               </li>
